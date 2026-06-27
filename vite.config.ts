@@ -1,0 +1,11 @@
+// Shared Vite config plugin provides TanStack Start integration, React, Tailwind, path aliasing, and SSR support.
+// Additional Vite config can be supplied through defineConfig({ vite: { ... } }).
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+export default defineConfig({
+  tanstackStart: {
+    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
+    // nitro/vite builds from this
+    server: { entry: "server" },
+  },
+});
