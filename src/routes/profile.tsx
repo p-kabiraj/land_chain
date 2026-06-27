@@ -190,7 +190,6 @@ function ProfilePage() {
                 </Button>
               ) : null}
               {freighterNetwork ? <p className="mt-2 text-xs text-muted-foreground">Freighter network: {freighterNetwork}</p> : null}
-              {redmiNetwork ? <p className="mt-2 text-xs text-muted-foreground">Redmi network: {redmiNetwork}</p> : null}
               <div className="mt-3 text-left text-xs">
                 {walletChecking ? (
                   <p className="text-muted-foreground">Checking Stellar account status…</p>
