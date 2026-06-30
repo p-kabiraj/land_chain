@@ -48,6 +48,10 @@ LandChain/
 ├── smart-contract/
 └── README.md
 ```
+## contract address
+https://stellar.expert/explorer/testnet/account/GAGF3BLXTUBF4UYCF3TMLM22RSRG4WKUXV4TTAAAH2XLQJBFY6KCATKC?filter=all
+<img width="1920" height="1080" alt="1st" src="https://github.com/user-attachments/assets/2eb57746-451f-4495-9724-3dad19d3258a" />
+
 
 ## ⚙️ Installation
 
